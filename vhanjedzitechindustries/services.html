@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Overview of the technology services offered by the company. -->
+<html lang="en">
+<head>
+    <!-- Page metadata and shared stylesheet. -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Vhanjedzi Tech Industries is a technology company that provides innovative and reliable technology solutions for businesses and individuals. 
+    We offer services such as website development, cybersecurity, and cloud solutions to help our clients grow and succeed in the digital world.">
+    <meta name="keywords" content="Vhanjedzi Tech Industries, technology solutions, website development, cybersecurity, cloud solutions, digital transformation, innovative technology, reliable services, affordable technology, professional support">    
+    <link rel="stylesheet" href="css_assets/myfirstsctyles.css">
+    <link rel="stylesheet" href="css_assets/myfirstsctyles.css">
+    <title>VHANJEDZI TECH INDUSTRIES</title>
+
+</head>
+<body >
+    <!-- Brand header and primary site navigation. -->
+    <header style="background-color: rgb(0,124, 223);">
+        <img src="_images/company logo.png" alt="VHANJEDZI TECH INDUSTRIES logo">
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a>
+                </li>
+                <li><a href="about.html">About</a>
+                </li>
+                <li><a href="services.html">Services</a>
+                </li>
+                <li><a href="enquiries.html">Equiries</a>
+                </li>
+                <li><a href="contact.html">Contact</a>
+                </li>    
+            </ul>
+
+        </nav>
+        <h1>VHANJEDZI TECH INDUSTRIES</h1>
+    </header>
+    <!-- Service descriptions and dynamically populated service table. -->
+    <main style="background-color: rgb(0, 124, 223) ;" >
+        <img src="_images/computer chip.png" alt="VHANJEDZI TECH INDUSTRIES">
+        <img src="_images/computer.png" alt="VHANJEDZI TECH INDUSTRIES">
+
+        <h1>Welcome to Vhanjedzi Tech Industries</h1>
+        <h3>Technology that moves you forward</h3>
+        <p>Transform your ideas into reality with powerful Technology solutions. </p>
+        <p>We provide innovative and reliable technology solutions for businesses and individuals. </p>
+        <p>We are committed to helping our clients grow, improve their businesses, and succeed in the digital world through modern technology.</p>
+        <p>We provide reliable, affordable and professional technology solutions designed to meet the needs of our customers.</p>   
+
+        <p>Transform your ideas into reality with powerful technology soulutions.</p>
+        <div class="controls">
+            <input
+             type="text"
+             id="searchInput" 
+             placeholder="Search services..."
+             aria-label="Search services">
+
+            <select id="sortSelect" aria-label="Sort services">
+                <option value="">Sort by</option>
+                <option value="name-asc">Name (A-Z)</option>
+                <option value="name-desc">Name (Z-A)</option>
+                <option value="price-asc">Price (Low to High)</option>
+                <option value="price-desc">Price (High to Low)</option>
+            </select>
+        </div>
+
+        <table width="100% " border="1%">
+            <thead>
+                <tr>
+                    <th>Service</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                </tr>
+            </thead>
+            <tbody id="servicesList">
+            </tbody>
+        </table>
+
+        <h2>Bookings</h2>
+        <p>To book our services, please contact us through the contact page or send us an email. We will respond to your inquiry as soon as possible.</p>   
+
+
+
+    </main>
+
+    <!-- Copyright and contact link. -->
+    <footer style="background-color: rgb(0, 124, 223);">
+        <p>2026 Vhanjedzi Tech Industries.All rights Reserved</p>
+        <a href="contact.html">Contact</a>
+
+        
+        
+
+    </footer>
+    
+    
+    <!-- Shared page interactions, including rendering service rows. -->
+    <script src="js_assets/myscript.js"></script>
+</body>
+</html>
